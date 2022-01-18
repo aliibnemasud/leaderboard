@@ -1,0 +1,105 @@
+
+body{
+    background-color: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+header{
+    background-color: blue;
+    margin-bottom: 70px;
+
+}
+nav {    
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;    
+}
+
+.link {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo {
+    display: flex;    
+}
+
+.logo img {
+    width: 10%;
+    padding: 10px;      
+}
+
+.logo h1 {
+    color: white;
+}
+
+
+/* ----------------
+Top players section 
+-------------------*/
+
+.top-players{
+    background-color: white;
+    padding: 30px;    
+}
+
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    margin-bottom: 30px;
+}
+
+.player{
+    display: flex;
+    align-items: center;  
+    
+}
+.player-name {
+    margin-left: 16px;
+}
+.player img {
+    height: 56px;
+    width: 56px;
+}
+hr {
+    border:1px solid black;
+}
+
+/* ----------------------
+top blog section css
+---------------------- */
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+}
+.blog {
+    display: flex;
+}
+.blog img {
+    height: 117px;
+    width: 177px;
+}
+.content {
+    margin-left: 15px;
+}
+
+
